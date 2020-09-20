@@ -1,0 +1,60 @@
+article, #control{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+button:hover{
+    box-shadow: darkslategray 1px 1px 1px 1px;
+    transition: .5s;
+}
+button{
+    margin:1em;
+    padding:1em;
+    font-size: 1em;
+    border : 0;
+    /*border-radius: 7px;*/
+    background: linear-gradient(lightgreen,lightgreen);
+    width: 45%;
+}
+button:nth-child(even){
+    background: linear-gradient(orangered,tomato);
+    color: aliceblue;
+}
+p{display: flex;justify-content: space-between;
+    width:100%;}
+aside{
+    text-align: center;
+    font-size: 1.5em;
+    margin:0em;
+    width:30%;
+}
+aside i{
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin:0em;
+    color:steelblue;
+}
+#monitor{
+    position:fixed; 
+    left:0; top:5em;
+    color :lightgray;
+    background:black;
+    font-family: 'Courier New', Courier, monospace;
+    border-left: 1em solid grey;
+    width: 14%;
+    font-size: 1em;
+}
+footer{
+    position: fixed;
+    left:0;
+    bottom: 4em;
+    width:14%;
+}
+#demo{
+    background: linear-gradient(lightblue,skyblue);
+    padding:.5em;
+    text-align: right;
+    font-size: 1.5em;
+    justify-content: center;
+}

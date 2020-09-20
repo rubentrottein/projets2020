@@ -1,0 +1,18 @@
+.lightBox aside{
+    font-size: 3em;
+    border-radius: 7px;
+    margin: 1em;
+    padding: 1em;
+}
+#chocolat{
+    background: SaddleBrown;
+    color: wheat;
+}
+#fromage{
+    background: wheat;
+    color: brown;
+}
+#biscuit{
+    background: darkgoldenrod;
+    color: aliceblue;
+}

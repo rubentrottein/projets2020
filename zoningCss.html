@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <title>zoningCss</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/zoning.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <video poster="img/ps5-logo.png" id="bgvid" playsinline autoplay muted loop>
+        <!-- 
+        - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+        WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+        <source src="vid/ps5-hardware-reveal-trailer.mp4" type="video/mp4">
+    </video>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Exercice de Zoning (images) CSS Grid</h1>
+        </header>
+        <main>
+            <section id="pictures" class="grid-container">
+                <article class='item1'>
+                    <a href="#ps5"><img src="img/image1.jpg" alt='ps5 horizontal'></a>
+                </article>
+                <article class='item2'>
+                    <a href="#demonsSouls"><img src="img/image2.jpg" alt="Demon's Soul"></a>
+                </article>
+                <article class='item3'>
+                    <a href="#spiderman"><img src="img/image3.jpg" alt='Spiderman'></a>
+                </article>
+                <article class='item4'>
+                    <a href="#ps5"><img src="img/image4.jpg" alt='PS5 vertical'></a>
+                </article>
+                <article class='item5'>
+                    <a href="#ff16"><img src="img/image5.jpg" alt='Final Fantasy 16'></a>
+                </article>
+                <article class='item6'>
+                    <a href="#ratchetClank"><img src="img/image6.jpg" alt='Ratchet and Clank'></a>
+                </article>
+                <article class='item7'>
+                    <a href="#horizon2"><img src="img/image7.jpg" alt='Horizon 2'></a>
+                </article>
+            </section>
+            <section id="presentation">
+                <article id="ps5"></article>
+                <article id="demonsSouls"></article>
+                <article id="spiderman"></article>
+                <article id="ff16"></article>
+                <article id="ratchetClank"></article>
+                <article id="horizon2"></article>
+            </section>
+        </main>
+        <footer>
+        </footer>
+        <script src="js/nav.js"></script>
+        <script src="js/zoning.js"></script>
+        <script src="js/display.js"></script>
+    </body>
+</html>
